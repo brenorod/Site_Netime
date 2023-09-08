@@ -36,40 +36,71 @@
         <div class="RA">
             <h1>Recentes Adicionados</h1>
         </div>
-        <button><img src="src/img/POSTER_MINI_JUJUTSU_KAISEN_0.jpg" alt="POSTER_MINI_JUJUTSU_KAISEN_0"></button>
 
-
-        <dialog>
-
-
+        <div class="carrossel_ra">
             
-            <iframe class="video-screen" width="560" height="315"
-                src="https://www.youtube.com/embed/oCbbFCvvAkg?si=jOHZ_SX0T8h3xy0v&amp;controls=0"
-                title="YouTube video player" frameborder="0"
-                noallow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-
-            </iframe>
-               
-                                            
-                    </div>
+                <div id="jjk0">
+                    <button id="1" class="jjk">
+                        <img class="poster" src="src/img/POSTER_MINI_JUJUTSU_KAISEN_0.jpg" alt="POSTER_MINI_JUJUTSU_KAISEN_0">
+                    </button>
+                    <dialog>
+                        <iframe class="video-screen" width="560" height="315"
+                            src="https://www.youtube.com/embed/oCbbFCvvAkg?rel=0&modestbranding=1&showinfo=0&controls=0"
+                            title="YouTube video player" frameborder="0" allowfullscreen allow="play">
+                        </iframe>
+                    
+                        <div class="bt-rep">
+                            <img class="btn-play" src="src/icon/play.svg" alt="play" onclick="play()">
+                    
+                            <img class="btn-pause" src="src/icon/pause.svg" alt="pause" onclick="pause()">
+                    
+                            <img class="btn-retroceder" src="src/icon/retroceder.svg" alt="retroceder" onclick="retroceder()">
+                    
+                            <img class="btn-avancar" src="src/icon/avancar.svg" alt="avancar" onclick="avancar()">
+                    
+                            <img class="btn-fullscreen" src="src/icon/fullscreen.svg" alt="fullscreen" onclick="fullscreen()">
+                    
+                        </div>
+                    </dialog>
+                    
                 </div>
-            <div class="bt-rep">
-                <img class="btn-play" src="src/icon/play.svg" alt="play" onclick="play()">
-                <img class="btn-pause" src="src/icon/pause.svg" alt="pause" onclick="pause()">
-                <img class="btn-retroceder" src="src/icon/retroceder.svg" alt="retroceder" onclick="retroceder()">
-                <img class="btn-avancar" src="src/icon/avancar.svg" alt="avancar" onclick="avancar()">
-                <img class="btn-fullscreen" src="src/icon/fullscreen.svg" alt="fullscreen" onclick="fullscreen()">
-            </div>
 
-        </dialog>
+                <div id="tua">
+                    <button id="2" class="tua">
+                        <img class="poster" src="src/img/mini1.jpg" alt="POSTER_MINI_THE_UMBRELLA_ACADEMY">
+                    </button>
+                                    
+                        <dialog>
+
+                            <iframe class="video-screen" width="560" height="315"
+                            src="https://www.youtube.com/embed/0DAmWHxeoKw?rel=0&modestbranding=1&showinfo=0&controls=0"
+                            title="YouTube video player" frameborder="0" allowfullscreen allow="play">
+
+                            </iframe>
+
+                            <div class="bt-rep">
+
+                                <img class="btn-play" src="src/icon/play.svg" alt="play" onclick="play()">
+
+                                <img class="btn-pause" src="src/icon/pause.svg" alt="pause" onclick="pause()">
+
+                                <img class="btn-retroceder" src="src/icon/retroceder.svg" alt="retroceder" onclick="retroceder()">
+
+                                <img class="btn-avancar" src="src/icon/avancar.svg" alt="avancar" onclick="avancar()">
+
+                                <img class="btn-fullscreen" src="src/icon/fullscreen.svg" alt="fullscreen" onclick="fullscreen()">
+
+                            </div>
+                        </dialog>
+                    </div>
+             </div>
 
 
 
 
 
-        <footer class="baseboard">
-            <p>Clone da Interface da Netflix</p>
+        <footer class="rodape">
+            <p>Protótipo de uma plataforma de Streaming</p>
         </footer>
         <script src="arquivo.js"></script>
 </body>
