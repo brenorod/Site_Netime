@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style2.css">
+
+
+
+
+    <title>Netime</title>
+</head>
+
+<body>
+    <!-- dados referente ao menu da página -->
+    <header>
+        <div class="container">
+            <img src="/src/img/logo_netflix.png" alt="Logo Netflix" class="logo">
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- dados referente ao filme principal mostrado na página -->
+    <main>
+        <div class="RA">
+            <h1>Recentes Adicionados</h1>
+        </div>
+        <button><img src="src/img/POSTER_MINI_JUJUTSU_KAISEN_0.jpg" alt="POSTER_MINI_JUJUTSU_KAISEN_0"></button>
+
+
+        <dialog>
+
+
+            
+            <iframe class="video-screen" width="560" height="315"
+                src="https://www.youtube.com/embed/oCbbFCvvAkg?si=jOHZ_SX0T8h3xy0v&amp;controls=0"
+                title="YouTube video player" frameborder="0"
+                noallow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+
+            </iframe>
+               
+                                            
+                    </div>
+                </div>
+            <div class="bt-rep">
+                <img class="btn-play" src="src/icon/play.svg" alt="play" onclick="play()">
+                <img class="btn-pause" src="src/icon/pause.svg" alt="pause" onclick="pause()">
+                <img class="btn-retroceder" src="src/icon/retroceder.svg" alt="retroceder" onclick="retroceder()">
+                <img class="btn-avancar" src="src/icon/avancar.svg" alt="avancar" onclick="avancar()">
+                <img class="btn-fullscreen" src="src/icon/fullscreen.svg" alt="fullscreen" onclick="fullscreen()">
+            </div>
+
+        </dialog>
+
+
+
+
+
+        <footer class="baseboard">
+            <p>Clone da Interface da Netflix</p>
+        </footer>
+        <script src="arquivo.js"></script>
+</body>
+
+</html>

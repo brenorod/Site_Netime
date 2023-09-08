@@ -1,0 +1,85 @@
+:root {
+    --color-background: #141414;
+    --color-text-primary: #FFFFFF;
+    --color-text-title: #E50914;
+    --color-text-main: #AAA;
+    --color-background-button: #FFFFFF;
+    --color-text-button: #141414;
+}
+
+/* resetando alguns estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* elementos base */
+body {
+    background: var(--color-background);
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-primary);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row; /* coloca o menu ao lado da logo */
+    align-items: center; /* alinhando o menu ao centro do container */
+    justify-content: space-between; /* adicionando um espaço entre o menu e a logo */    
+}
+
+.logo {
+    max-width: 10%; /* tamanho da logo na tela */
+    margin-left: 1%; /* espaçamento entre o lado esquerdo da tela e a logo */
+    margin-top: 1%; /* espaçamento entre o topo da tela e a logo */
+}
+
+header nav a {
+    text-decoration: none; /* removendo o sublinhado do link dos menus */
+    margin-right: 20px; /* espaçamento entre o menu e o lado direito da tela e ente eles */
+    color: var(--color-text-main);
+}
+
+header nav a:hover {
+    color: var(--color-text-primary);
+}
+
+dialog{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    position: relative;
+
+}
+
+dialog > video{
+    width: 100%;
+}
+.bt-rep{
+    background-color: #AAA;
+    filter: invert();
+}
+
+.btn-play{
+   width: 05%;
+   margin-left: 6%;
+}
+.btn-pause{
+    width: 05%;
+    margin-left: 15%;
+}
+.btn-avancar{
+    width: 05%;
+    margin-left: 15%;
+}
+.btn-retroceder{
+    width: 05%;
+    margin-left: 15%;
+}
+.btn-fullscreen{
+    width: 05%;
+    margin-left: 15%;
+}
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.616);
+}
