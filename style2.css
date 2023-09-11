@@ -83,22 +83,44 @@ dialog > video{
    width: 05%;
    margin-left: 6%;
 }
+.btn-play:hover{
+    cursor: pointer;
+}
+
 .btn-pause{
     width: 05%;
     margin-left: 15%;
 }
+.btn-pause:hover{
+    cursor: pointer;
+}
+
 .btn-avancar{
     width: 05%;
     margin-left: 15%;
 }
+.btn-avancar:hover{
+    cursor: pointer;
+}
+
 .btn-retroceder{
     width: 05%;
     margin-left: 15%;
 }
+.btn-retroceder:hover{
+    cursor: pointer;
+}
+
 .btn-fullscreen{
     width: 05%;
     margin-left: 15%;
 }
+
+.btn-fullscreen:hover{
+    cursor: pointer;
+}
+
+
 
 dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.616);
