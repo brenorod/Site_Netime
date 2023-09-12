@@ -21,6 +21,7 @@ body {
     color: var(--color-text-primary);
 }
 
+
 header .container {
     display: flex;
     flex-direction: row; /* coloca o menu ao lado da logo */
@@ -43,19 +44,24 @@ header nav a {
 header nav a:hover {
     color: var(--color-text-primary);
 }
+
 .carrossel_ra{
     display: inline-flex;
-    margin: auto;
+    justify-content: space-between;
+    position: relative;
 }
+
 .banner{
-    margin: 2% 0% 0% 2%;
-    max-width: 35%;
+    margin: 2% 2% 2% 2%;
+    width: 25%;
 }
+
 .banner:hover{
     max-width: 38%;
     transform: scale(1.01);
     transition: 500ms;
 }
+
 button{
     cursor: pointer;
     margin: 2% 0% 0% 2%;
@@ -63,8 +69,10 @@ button{
     background-color:#141414;
     border: none;
 }
+
 .poster{
     max-width: 100%;
+    margin:auto;
 }
 
 dialog{
@@ -73,6 +81,7 @@ dialog{
     position: relative;
     
 }
+
 .material-symbols-outlined{
     cursor: pointer;
     margin-left: 95%;
@@ -81,6 +90,16 @@ dialog{
     display: block;
     color: #ffffff6c;
 }
+
+.material-symbols-outlined:hover{
+    cursor: pointer;
+    margin-left: 95%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    display: block;
+    color: #ffffff;
+}
+
 .button{
     cursor: pointer;
 }

@@ -1,7 +1,7 @@
 
-const button = document.querySelector("button")
-const modal = document.querySelector("dialog")
-const spanClose = document.querySelector("span")
+const button = document.querySelectorAll("button")
+const modal = document.querySelectorAll("dialog")
+const spanClose = document.querySelectorAll("span")
 
 button.onclick = function () {
     modal.showModal()
@@ -9,3 +9,4 @@ button.onclick = function () {
 spanClose.onclick = function (){
     modal.close()
 }
+
