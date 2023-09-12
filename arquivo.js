@@ -1,33 +1,11 @@
 
-
 const button = document.querySelector("button")
 const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog.button")
+const spanClose = document.querySelector("span")
 
 button.onclick = function () {
     modal.showModal()
 }
-
-
-var player = document.getElementsByClassName("video-screen")[0];
-
-function play(){
-    player.play();
-}
-
-function pause(){
-    player.requestPause();
-}
-
-
-function retroceder(){
-    player.currentTime -= 10;
-}
-
-function avancar(){
-    player.currentTime += 10;
-}
-
-function fullscreen(){
-    player.requestFullscreen();
+spanClose.onclick = function (){
+    modal.close()
 }

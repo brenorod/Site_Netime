@@ -45,15 +45,19 @@ header nav a:hover {
 }
 .carrossel_ra{
     display: inline-flex;
-
+    margin: auto;
 }
-div#jjk0{
-    max-width: 25%;
+.banner{
+    margin: 2% 0% 0% 2%;
+    max-width: 35%;
 }
-div#tua{
-    max-width: 25%;
+.banner:hover{
+    max-width: 38%;
+    transform: scale(1.01);
+    transition: 500ms;
 }
 button{
+    cursor: pointer;
     margin: 2% 0% 0% 2%;
     max-width: 100%;
     background-color:#141414;
@@ -68,59 +72,22 @@ dialog{
     margin: auto;
     position: relative;
     
-
+}
+.material-symbols-outlined{
+    cursor: pointer;
+    margin-left: 95%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    display: block;
+    color: #ffffff6c;
+}
+.button{
+    cursor: pointer;
 }
 
 dialog > video{
-    width: 100%;
+    width: 100%;   
 }
-.bt-rep{
-    background-color: #AAA;
-    filter: invert();
-}
-
-.btn-play{
-   width: 05%;
-   margin-left: 6%;
-}
-.btn-play:hover{
-    cursor: pointer;
-}
-
-.btn-pause{
-    width: 05%;
-    margin-left: 15%;
-}
-.btn-pause:hover{
-    cursor: pointer;
-}
-
-.btn-avancar{
-    width: 05%;
-    margin-left: 15%;
-}
-.btn-avancar:hover{
-    cursor: pointer;
-}
-
-.btn-retroceder{
-    width: 05%;
-    margin-left: 15%;
-}
-.btn-retroceder:hover{
-    cursor: pointer;
-}
-
-.btn-fullscreen{
-    width: 05%;
-    margin-left: 15%;
-}
-
-.btn-fullscreen:hover{
-    cursor: pointer;
-}
-
-
 
 dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.616);
