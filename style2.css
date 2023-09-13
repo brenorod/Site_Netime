@@ -50,7 +50,23 @@ header nav a:hover {
     justify-content: space-between;
     position: relative;
 }
+img.botaoesq{
+    filter: invert();
+    margin-left: 2%;
+    margin-right: -10%;
+}
+img.botaoesq:hover{
+    background-color: #ffffff7c;
+}
 
+img.botaodir{
+    filter: invert();
+    margin-left: -10%;
+    margin-right: 2%;
+}
+img.botaodir:hover{
+    background-color: #ffffff7c;
+}
 .banner{
     margin: 2% 2% 2% 2%;
     width: 25%;
