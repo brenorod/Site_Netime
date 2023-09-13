@@ -10,5 +10,5 @@ spanClose.onclick = function (){
     modal.close()
 }
 
-var slide = document.addEventListener("")
+
 
